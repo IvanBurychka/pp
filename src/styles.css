@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav {
+  height: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  font-size: 2em;
+  padding: 15px 15px;
+
+  text-decoration: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+.noBorder>a {
+  border-right-style: none
+
+}
