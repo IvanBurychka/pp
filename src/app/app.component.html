@@ -2,22 +2,22 @@
   <nav>
     <ul>
       <li class="left">
-        <a href>Main</a>
+        <a [routerLink]="['/main']">Main</a>
       </li>
       <li class="left">
-        <a href>Event</a>
+        <a [routerLink]="['/events']">Event</a>
       </li>
       <li class="left">
-        <a href>Project</a>
+        <a [routerLink]="['/projects']">Projects</a>
       </li>
       <li class="left">
-        <a href>Article</a>
+        <a [routerLink]="['/articles']">Article</a>
       </li>
       <li class="left">
-        <a href>Speaker</a>
+        <a [routerLink]="['/speakers']">Speaker</a>
       </li>
       <li class="left noBorder">
-        <a href>Contact</a>
+        <a [routerLink]="['/contacts']">Contact</a>
       </li>
       <li class="right noBorder">
         <a href>MyProfile</a>
@@ -31,6 +31,9 @@
     </ul>
   </nav>
 </header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<footer>
+</footer>
 
-
-<router-outlet></router-outlet>
